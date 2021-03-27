@@ -26,7 +26,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <skipTests>true</skipTests>
-        <nexus.url>http://47.244.42.220:8081</nexus.url>
+        <nexus.url>http://103.223.123.162:8081</nexus.url>
         <spring-cloud-dependencies.version>Greenwich.RELEASE</spring-cloud-dependencies.version>
     </properties>
 
