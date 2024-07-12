@@ -30,38 +30,6 @@
         <spring-cloud-dependencies.version>Greenwich.RELEASE</spring-cloud-dependencies.version>
     </properties>
 
-    <profiles>
-        <profile>
-            <id>manage</id>
-            <properties>
-                <config.profile>manage,common</config.profile>
-            </properties>
-        </profile>
-        <profile>
-            <id>manage1</id>
-            <properties>
-                <config.profile>manage1,common</config.profile>
-            </properties>
-        </profile>
-        <profile>
-            <id>prod</id>
-            <properties>
-                <config.profile>prod,common</config.profile>
-            </properties>
-        </profile>
-        <profile>
-            <id>prod1</id>
-            <properties>
-                <config.profile>prod1,common</config.profile>
-            </properties>
-        </profile>
-        <profile>
-            <id>test</id>
-            <properties>
-                <config.profile>test</config.profile>
-            </properties>
-        </profile>
-    </profiles>
 
     <dependencies>
         <dependency>
